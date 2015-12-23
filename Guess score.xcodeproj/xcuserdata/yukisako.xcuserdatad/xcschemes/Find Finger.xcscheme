@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65327EA71C2ACA0100E40AA9"
-               BuildableName = "Find Finger.app"
-               BlueprintName = "Find Finger"
-               ReferencedContainer = "container:Find Finger.xcodeproj">
+               BuildableName = "Guess score.app"
+               BlueprintName = "Guess score"
+               ReferencedContainer = "container:Guess score.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65327EA71C2ACA0100E40AA9"
-            BuildableName = "Find Finger.app"
-            BlueprintName = "Find Finger"
-            ReferencedContainer = "container:Find Finger.xcodeproj">
+            BuildableName = "Guess score.app"
+            BlueprintName = "Guess score"
+            ReferencedContainer = "container:Guess score.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65327EA71C2ACA0100E40AA9"
-            BuildableName = "Find Finger.app"
-            BlueprintName = "Find Finger"
-            ReferencedContainer = "container:Find Finger.xcodeproj">
+            BuildableName = "Guess score.app"
+            BlueprintName = "Guess score"
+            ReferencedContainer = "container:Guess score.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65327EA71C2ACA0100E40AA9"
-            BuildableName = "Find Finger.app"
-            BlueprintName = "Find Finger"
-            ReferencedContainer = "container:Find Finger.xcodeproj">
+            BuildableName = "Guess score.app"
+            BlueprintName = "Guess score"
+            ReferencedContainer = "container:Guess score.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

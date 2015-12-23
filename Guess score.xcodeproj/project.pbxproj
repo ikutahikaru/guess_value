@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650466841C2AE1990041F4AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650466831C2AE1990041F4AF /* Info.plist */; };
 		65327EAC1C2ACA0100E40AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65327EAB1C2ACA0100E40AA9 /* AppDelegate.swift */; };
 		65327EAE1C2ACA0100E40AA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65327EAD1C2ACA0100E40AA9 /* ViewController.swift */; };
 		65327EB11C2ACA0100E40AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65327EAF1C2ACA0100E40AA9 /* Main.storyboard */; };
 		65327EB31C2ACA0100E40AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65327EB21C2ACA0100E40AA9 /* Assets.xcassets */; };
 		65327EB61C2ACA0100E40AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65327EB41C2ACA0100E40AA9 /* LaunchScreen.storyboard */; };
+		65327EC01C2ADE1000E40AA9 /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 65327EBF1C2ADE1000E40AA9 /* 100.png */; };
+		65327EC21C2ADE1500E40AA9 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 65327EC11C2ADE1500E40AA9 /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65327EA81C2ACA0100E40AA9 /* Find Finger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Finger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650466831C2AE1990041F4AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65327EA81C2ACA0100E40AA9 /* Guess score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65327EAB1C2ACA0100E40AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65327EAD1C2ACA0100E40AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65327EB01C2ACA0100E40AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65327EB21C2ACA0100E40AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65327EB51C2ACA0100E40AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		65327EB71C2ACA0100E40AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65327EBF1C2ADE1000E40AA9 /* 100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100.png; sourceTree = "<group>"; };
+		65327EC11C2ADE1500E40AA9 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,38 +43,41 @@
 		65327E9F1C2ACA0100E40AA9 = {
 			isa = PBXGroup;
 			children = (
-				65327EAA1C2ACA0100E40AA9 /* Find Finger */,
+				65327EAA1C2ACA0100E40AA9 /* Guess Score */,
 				65327EA91C2ACA0100E40AA9 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		65327EA91C2ACA0100E40AA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65327EA81C2ACA0100E40AA9 /* Find Finger.app */,
+				65327EA81C2ACA0100E40AA9 /* Guess score.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65327EAA1C2ACA0100E40AA9 /* Find Finger */ = {
+		65327EAA1C2ACA0100E40AA9 /* Guess Score */ = {
 			isa = PBXGroup;
 			children = (
 				65327EAB1C2ACA0100E40AA9 /* AppDelegate.swift */,
+				650466831C2AE1990041F4AF /* Info.plist */,
 				65327EAD1C2ACA0100E40AA9 /* ViewController.swift */,
 				65327EAF1C2ACA0100E40AA9 /* Main.storyboard */,
 				65327EB21C2ACA0100E40AA9 /* Assets.xcassets */,
+				65327EC11C2ADE1500E40AA9 /* 0.png */,
+				65327EBF1C2ADE1000E40AA9 /* 100.png */,
 				65327EB41C2ACA0100E40AA9 /* LaunchScreen.storyboard */,
-				65327EB71C2ACA0100E40AA9 /* Info.plist */,
 			);
-			path = "Find Finger";
+			path = "Guess Score";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65327EA71C2ACA0100E40AA9 /* Find Finger */ = {
+		65327EA71C2ACA0100E40AA9 /* Guess score */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65327EBA1C2ACA0100E40AA9 /* Build configuration list for PBXNativeTarget "Find Finger" */;
+			buildConfigurationList = 65327EBA1C2ACA0100E40AA9 /* Build configuration list for PBXNativeTarget "Guess score" */;
 			buildPhases = (
 				65327EA41C2ACA0100E40AA9 /* Sources */,
 				65327EA51C2ACA0100E40AA9 /* Frameworks */,
@@ -79,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "Find Finger";
+			name = "Guess score";
 			productName = "Find Finger";
-			productReference = 65327EA81C2ACA0100E40AA9 /* Find Finger.app */;
+			productReference = 65327EA81C2ACA0100E40AA9 /* Guess score.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65327EA31C2ACA0100E40AA9 /* Build configuration list for PBXProject "Find Finger" */;
+			buildConfigurationList = 65327EA31C2ACA0100E40AA9 /* Build configuration list for PBXProject "Guess score" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65327EA71C2ACA0100E40AA9 /* Find Finger */,
+				65327EA71C2ACA0100E40AA9 /* Guess score */,
 			);
 		};
 /* End PBXProject section */
@@ -124,8 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65327EB61C2ACA0100E40AA9 /* LaunchScreen.storyboard in Resources */,
+				65327EC21C2ADE1500E40AA9 /* 0.png in Resources */,
+				650466841C2AE1990041F4AF /* Info.plist in Resources */,
 				65327EB31C2ACA0100E40AA9 /* Assets.xcassets in Resources */,
 				65327EB11C2ACA0100E40AA9 /* Main.storyboard in Resources */,
+				65327EC01C2ADE1000E40AA9 /* 100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +259,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Find Finger/Info.plist";
+				INFOPLIST_FILE = "Guess score/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yukisako.Find-Finger";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yukisako.guess-score";
+				PRODUCT_NAME = "Guess score";
 			};
 			name = Debug;
 		};
@@ -259,17 +270,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Find Finger/Info.plist";
+				INFOPLIST_FILE = "Guess score/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yukisako.Find-Finger";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yukisako.guess-score";
+				PRODUCT_NAME = "Guess score";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65327EA31C2ACA0100E40AA9 /* Build configuration list for PBXProject "Find Finger" */ = {
+		65327EA31C2ACA0100E40AA9 /* Build configuration list for PBXProject "Guess score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65327EB81C2ACA0100E40AA9 /* Debug */,
@@ -278,13 +289,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65327EBA1C2ACA0100E40AA9 /* Build configuration list for PBXNativeTarget "Find Finger" */ = {
+		65327EBA1C2ACA0100E40AA9 /* Build configuration list for PBXNativeTarget "Guess score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65327EBB1C2ACA0100E40AA9 /* Debug */,
 				65327EBC1C2ACA0100E40AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

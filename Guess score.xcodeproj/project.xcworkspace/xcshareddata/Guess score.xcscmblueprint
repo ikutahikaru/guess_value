@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA5EF6A71609189D19B6DC9E279A9CEB38369DFA" : 0,
+    "6100A69BEC9A733828A8D1B6D60C8968FFED8031" : 0,
+    "A5B87689F370A1C46CB9D2BD3E53DAC0EEBD65F9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "75FEE953-14DE-46D4-9EE5-6DCD2DFEA7D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA5EF6A71609189D19B6DC9E279A9CEB38369DFA" : "..\/..\/..\/tools",
+    "6100A69BEC9A733828A8D1B6D60C8968FFED8031" : "..\/..\/web\/yukisako.github.io",
+    "A5B87689F370A1C46CB9D2BD3E53DAC0EEBD65F9" : "Decimal%20Change\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "project",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Guess score.xcodeproj\/project.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yukisako\/yukisako.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6100A69BEC9A733828A8D1B6D60C8968FFED8031"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yukisako\/energy_value.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5B87689F370A1C46CB9D2BD3E53DAC0EEBD65F9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yukisako\/tools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA5EF6A71609189D19B6DC9E279A9CEB38369DFA"
+    }
+  ]
+}
